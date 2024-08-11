@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <title>HomePay</title>
     <style type="text/css">
       body {
@@ -39,42 +39,26 @@
           
           <p class="lead">Acabou tendo um pequeno erro no pagamento mas que é simples de resolver...</p>
 
-         <p class="lead">Então vamos fazer assim, para confirmar o App da HomePay junto com todos o acesso VITALÍCIO e fora isso também poder fazer saques rápidos a todo momento...</p>
+         <p class="lead">Então vamos fazer assim, para confirmar o App da HomePay junto com o acesso VITALÍCIO e fora isso também poder fazer saques rápidos a todo momento...</p>
 
-<p class="lead"> Basta apenas clicar no botão abaixo de "SIM, QUERO O APP E TODOS OS BENEFÍCIOS!"... </p>
- 
+         <p class="lead">Basta apenas clicar no botão abaixo de "SIM, QUERO O APP E TODOS OS BENEFÍCIOS!"...</p>
 
-  </body>
+         <!-- Botão para aceitar a oferta -->
+         <button class="kirvano-payment-trigger btn btn-primary">SIM, QUERO O APP E TODOS OS BENEFÍCIOS!</button>
 
-          
-      <script>
-        var offer = "a734342c-d2bc-4815-8906-6e4067e08858";
-        var nextPageURL = null;
-        var refusePageURL = "https://sistemacerovientrepv.online/DW";
-      </script>
-      <script src="https://snippets.kirvano.com/upsell.min.js"></script>
-
-      <!--
-      INSTRUÇÕES:
-
-      Para abrir o modal do upsell, basta adicionar a classe "kirvano-payment-trigger" no(s) elemento(s)
-      da página que vão executar a ação de compra.
-
-      Exemplo:
-      <button class="kirvano-payment-trigger">Sim, eu aceito essa oferta especial!</button>
-
-      Da mesma forma, para rejeitar a oferta, adicione a classe "kirvano-refuse-trigger"
-      no(s) elemento(s) por essa ação. Dependendo de como sua estratégia foi configurada,
-      o cliente será direcionado para uma nova oferta  ou para a "Página de obrigado" da Kirvano.
-
-      Exemplo:
-      <button class="kirvano-refuse-trigger">Não, eu gostaria de recusar essa oferta</button>
-      -->
-    
+         <!-- Botão para recusar a oferta -->
+         <button class="kirvano-refuse-trigger btn btn-secondary">Não, eu gostaria de recusar essa oferta</button>
 
         </div>
       </div>
     </div>
+
+    <script>
+      var offer = "a734342c-d2bc-4815-8906-6e4067e08858";
+      var nextPageURL = null;
+      var refusePageURL = "https://sistemacerovientrepv.online/DW";
+    </script>
+    <script src="https://snippets.kirvano.com/upsell.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
