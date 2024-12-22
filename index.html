@@ -36,7 +36,11 @@
   <!--------------------- Pagina de login" --------------------->
   
   
-  <div class="outer-box-login">
+  <div id="login" style="display: block;">
+        
+    <div style="padding-top:30%;"></div>
+
+        <div class="outer-box-login">
           <div class="white-box-login">
             <img src="images/opinilogo.png" style="width:30%; margin: 0 auto; display: flex;">
             <p class="popup-textL" style="text-align: center; color: rgb(101, 101, 101); font-weight: bold; font-size: 18px;">Bem-vindo(a) ao SpotifyOpina</p>
@@ -45,7 +49,11 @@
             <input for="email" type="text" name="email" id="email" class="form-input" style="margin-top:20px;" placeholder="E-mail" oninput="validateEmail()">
             <button class="prosseguir-button" id="prosseguir-button" style="margin-top: 15px;" onclick="verificarCampos()" href="#">ENTRAR</button>
                 
-            <div style="margin-bottom: 10px;"></div> 
+            <div style="margin-bottom: 10px;"></div>
+                
+
+               
+          </div>  
         </div>
     
 
@@ -63,7 +71,20 @@
 
 
 
+  
+  <div id="inicio" style="display: none;">
 
+        <div class="menu">
+          <a style="width: 30%; ">
+            <img src="images/opinilogo.png" style="width:  110px;">
+          </a>
+          <div style="width: 45%;" class="buttons-container" href="#" onclick="mostrarPagina('saque')">
+            <div class="valor-box">
+              <span id="valor" style="font-family: 'Montserrat', sans-serif; max-width: 100%;">R$ 100.00</span>
+            </div>
+          </div>
+        </div>
+        <div style="margin-bottom: 100px;"></div>
           
         
     <!--------------------- Anuncio 1 --------------------->
